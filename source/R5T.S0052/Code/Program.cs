@@ -1,13 +1,23 @@
 using System;
+using System.Threading.Tasks;
 
 
 namespace R5T.S0052
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
         {
-            Console.WriteLine("Hello World!");
-        }
+            //CodeFileScripts.Instance.CreateProgram_ViaTextSubstitution();
+            //await CodeFileScripts.Instance.CreateProgram_ViaRazorComponent();
+            //await CodeFileScripts.Instance.CreateProgramFile_ForWebServerForBlazorClient();
+
+            //await CodeFileScripts.Instance.CreateStronglyTypedGuid();
+
+            //CodeFileScripts.Instance.CreateDocumentation_ViaTextSubstitution();
+            //await CodeFileScripts.Instance.CreateDocumentation_ViaRazorComponent();
+
+            await CodeFileScripts.Instance.CreateLaunchSettings_WebServerForBlazorClient();
+		}
     }
 }
