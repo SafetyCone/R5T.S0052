@@ -8,6 +8,9 @@ namespace R5T.S0052
 	[ValuesMarker]
 	public partial interface ITypeNames : IValuesMarker
 	{
-		public string Program => "Program";
+		public string ExampleComponent => "ExampleComponent";
+		public string ExampleWinForm => "ExampleWinForm";
+        public string Class1 => "Class1";
+        public string Program => "Program";
 	}
 }
